@@ -1,8 +1,13 @@
 import React from 'react'
 
-function CoreConcept() {
+function CoreConcept({Image,Titre,Description}) {
   return (
-    <div>CoreConcept</div>
+    <section>
+       <img src={Image} alt="" />
+      <h1>{Titre}</h1>
+      <p>{Description}</p>
+    </section>
+     
   )
 }
 
