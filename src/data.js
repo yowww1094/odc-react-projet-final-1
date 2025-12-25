@@ -1,8 +1,8 @@
 // Import des images
 import componentsImg from './assets/components.png';
 import jsxImg from './assets/jsx-ui.png';
-import propsImg from './assets/props.png';
-import stateImg from './assets/state.png';
+import configImg from './assets/config.png';
+import stateImg from './assets/state-mgmt.png';
 
 // =======================
 // Concepts de base
@@ -19,7 +19,7 @@ export const CORE_CONCEPTS = [
     description: "JSX permet d’écrire du HTML directement dans le code JavaScript."
   },
   {
-    image: propsImg,
+    image: configImg, 
     title: "Props",
     description: "Les props servent à transmettre des données d’un composant parent à un composant enfant."
   },
