@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #2b0b4d;
 }
 
 code {
@@ -13,9 +14,57 @@ code {
 }
 
 
-/* core Concept */
+.cores {
+  background: #1a082e;
+  color: white;
+  border-radius: 14px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+  display: flex;
+  margin: 70px;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
+.core {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
 
 section {
-  background: #140524;
+  background: rgba(255, 255, 255, 0.04);
+  padding: 2rem ;
+  width: 230px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+img {
+  height: 4rem;
+  width: 6rem;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+section h1 {
+  font-size: 1.1rem;
+  margin-bottom: 0.7rem;
+  color: #ffffff;
+}
+
+section p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #c8c3dd;
 }
