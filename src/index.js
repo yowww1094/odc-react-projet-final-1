@@ -8,8 +8,8 @@ import MenuTabs from './components/MenuTabs';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <MenuTabs/>
+    <App />
+//  <MenuTabs/>
   </React.StrictMode>
 );
 
