@@ -1,17 +1,19 @@
 import CoreConcept from "./components/CoreConcept";
 import { CORE_CONCEPTS } from "./data";
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <>
-     <div className="cores">
-      <h1>Core Concept</h1>
-      <div className="core"> 
+      <Header />
+      <div className="cores">
+        <h1>Core Concept</h1>
+        <div className="core"> 
 
         {/* first methode  */}
-      {/* {CORE_CONCEPTS.map((core) => (
+        {/* {CORE_CONCEPTS.map((core) => (
         <CoreConcept title={core.title} description={core.description} image={core.image} />
-      ) )} */}
+          ) )} */}
 
     {/* second methode  */}
     {/* <CoreConcept title={CORE_CONCEPTS[0].title}  Description={CORE_CONCEPTS[0].description} Image={CORE_CONCEPTS[0].image}/> 
@@ -21,17 +23,19 @@ function App() {
     <CoreConcept title={CORE_CONCEPTS[3].title}  Description={CORE_CONCEPTS[3].description} Image={CORE_CONCEPTS[3].image}/>  */}
 
       {/* 3ed Methode  */}
-      <CoreConcept {...CORE_CONCEPTS[0]} /> 
-            <CoreConcept {...CORE_CONCEPTS[1]} /> 
-      <CoreConcept {...CORE_CONCEPTS[2]} /> 
-      <CoreConcept {...CORE_CONCEPTS[3]} /> 
+        <CoreConcept {...CORE_CONCEPTS[0]} /> 
+        <CoreConcept {...CORE_CONCEPTS[1]} /> 
+        <CoreConcept {...CORE_CONCEPTS[2]} /> 
+        <CoreConcept {...CORE_CONCEPTS[3]} /> 
 
       </div>
     </div>
    
       
     </>
-  );
+);
+
+
 }
 
 export default App;
