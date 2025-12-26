@@ -33,7 +33,7 @@ export default function MenuTabs() {
               </pre>
             </div>
           )
-        : <h1>Pleas select a topic </h1>}
+        : <h1 className="topic">Pleas select a topic </h1>}
     </>
   );
 }

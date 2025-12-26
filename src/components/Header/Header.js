@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import logo from '../../assets/react-core-concepts.png'
 
 function Header() {
   const items = ['Fundamental', 'Crucial', 'Core'];
@@ -12,7 +13,7 @@ function Header() {
     <div id="header">
       <img
         alt="React logo"
-        src=""
+        src={logo}
       />
       <h1>React Essentials</h1>
       <p>

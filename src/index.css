@@ -88,3 +88,9 @@ section p {
   line-height: 1.5;
   color: #c8c3dd;
 }
+
+.topic{
+  font-size: 20px;
+  margin-left: 50px;
+  color: gray !important;
+}

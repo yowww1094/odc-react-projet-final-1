@@ -23,11 +23,11 @@ export const CORE_CONCEPTS = [
     title: "Props",
     description: "Les props servent à transmettre des données d’un composant parent à un composant enfant."
   },
-  {
-    image: stateImg,
-    title: "State",
-    description: "Le state permet de gérer les données dynamiques d’un composant."
-  }
+  // {
+  //   image: stateImg,
+  //   title: "State",
+  //   description: "Le state permet de gérer les données dynamiques d’un composant."
+  // }
 ];
 
 // =======================
