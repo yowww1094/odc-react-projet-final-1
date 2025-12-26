@@ -1,9 +1,8 @@
-
 export default function TabButton({ children, onSelect, isSelected }) {
   return (
     <button
-      className={`tab-button ${isSelected ? "active" : ""}`}
       onClick={onSelect}
+      className={`tab-button ${isSelected ? "active" : ""}`}
     >
       {children}
     </button>
